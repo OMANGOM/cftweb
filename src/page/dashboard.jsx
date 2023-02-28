@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Calendar from 'react-awesome-calendar';
+// import Calendar from 'react-awesome-calendar';
 import axios from 'axios';
+import Calendar from '../components/calendar';
 
 const Dashboard = () => {
 
@@ -20,42 +21,42 @@ const Dashboard = () => {
     const events = [{
         id: 1,
         color: '#FFFFFF',
-        from: '2023-02-01T18:00:00+00:00',
-        to: '2023-02-01T19:00:00+00:00',
+        from: '2023-02-01',
+        to: '2023-02-01',
         title: `⏱️2330 🔥2152`
     },
     {
         id: 2,
         color: '#FFFFFF',
-        from: '2023-02-02T20:00:00+00:00',
-        to: '2023-02-02T21:00:00+00:00',
+        from: '2023-02-02',
+        to: '2023-02-02',
         title: `⏱️2330 🔥2152`
     },
     {
         id: 1,
         color: '#FFFFFF',
-        from: '2023-02-03T18:00:00+00:00',
-        to: '2023-02-03T19:00:00+00:00',
+        from: '2023-02-03',
+        to: '2023-02-03',
         title: `⏱️2330 🔥2152`
     },
     {
         id: 2,
         color: '#FFFFFF',
-        from: '2023-02-04T20:00:00+00:00',
-        to: '2023-02-04T21:00:00+00:00',
+        from: '2023-02-04',
+        to: '2023-02-04',
         title: `⏱️2330 🔥2152`
     },
     {
         id: 1,
         color: '#FFFFFF',
-        from: '2023-02-05T18:00:00+00:00',
-        to: '2023-02-05T19:00:00+00:00',
+        from: '2023-02-05',
+        to: '2023-02-05',
         title: `⏱️2330 🔥2152`
     }, {
         id: 2,
         color: '#FFFFFF',
-        from: '2023-02-06T20:00:00+00:00',
-        to: '2023-02-06T21:00:00+00:00',
+        from: '2023-02-06',
+        to: '2023-02-06',
         title: `⏱️2330 🔥2152`
     }];
 
